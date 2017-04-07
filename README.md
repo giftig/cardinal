@@ -44,7 +44,14 @@
 
     [sudo] npm install -g cardinal
 
-**Note:** 
+#### With docker
+
+    docker pull giftig/cardinal:latest
+
+See also [giftig/docker-cardinal](https://www.github.com/giftig/docker-cardinal) for a Dockerfile and
+utility script to simplify usage.
+
+**Note:**
 
 When installed globally, cardinal exposes itself as the `cdl` command.
 
